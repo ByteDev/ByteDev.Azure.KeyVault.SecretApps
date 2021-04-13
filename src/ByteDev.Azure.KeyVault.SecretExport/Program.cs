@@ -23,7 +23,7 @@ namespace ByteDev.Azure.KeyVault.SecretExport
             
             try
             {
-                Output.WriteHeader("Secret Import");
+                Output.WriteHeader("Secret Export");
 
                 var argSettings = new ArgSettings(new CmdArgInfo(args, cmdAllowedArgs));
 
